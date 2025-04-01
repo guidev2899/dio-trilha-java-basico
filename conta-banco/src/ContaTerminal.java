@@ -6,7 +6,7 @@ public class ContaTerminal {
         Scanner input = new Scanner(System.in);
         Random random = new Random();
 
-        Integer conta = 1000 +  random.nextInt(9000);
+        Integer conta = 1000 +  random.nextInt(9000); //gera um número aleatorio entre 1000 e 9000
 
         System.out.println("Digite o seu nome: ");
         String nome = input.nextLine();
